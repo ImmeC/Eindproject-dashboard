@@ -1,0 +1,11 @@
+exit
+docker compose up --build -ddocker compose down
+})    datum: "2026-06-20"    beschrijving: "Maak oefeningen 1 tot 5",    vak: "Databeheer",    titel: "MongoDB Oefening",db.remedierings.insertOne({
+show collections
+db.users.find()
+db.users.find()use dbImme
+exit
+})  email: "immeoliviercorstens@leerling.wico.be"  role: "student",  password: "1234",  username: "imme",db.users.insertOne({
+db.users.find()
+use dbImmend()
+use dbImme

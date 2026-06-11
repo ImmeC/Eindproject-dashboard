@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Remedieringen</title>
+
+    <link rel="stylesheet"
+        href="../css/style.css">
+</head>
+
+<body class="dashboard-body">
+
+    <div class="sidebar">
+
+        <h2>
+            Applicatie en databeheer
+        </h2>
+
+        <ul>
+            <li onclick="location.href='dashboard.html'">
+                Dashboard
+            </li>
+
+            <li>
+                Mijn Taken
+            </li>
+
+            <li>
+                Lesmateriaal
+            </li>
+
+            <li class="active">
+                Remedieringen
+            </li>
+
+            <li>
+                Cijfers
+            </li>
+
+            <li>
+                Bestanden
+            </li>
+
+            <li>
+                Instellingen
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="main-content">
+
+        <div class="topbar">
+
+            <h1>
+                Remedieringen
+            </h1>
+
+            <div class="profile">
+                ID
+            </div>
+
+        </div>
+
+        <div class="cards">
+
+            <div class="card large">
+
+                <h3>
+                    Nieuwe remediering
+                </h3>
+
+                <input
+                    type="text"
+                    id="titel"
+                    placeholder="Titel">
+
+                <input
+                    type="text"
+                    id="vak"
+                    placeholder="Vak">
+
+                <textarea
+                    id="beschrijving"
+                    placeholder="Beschrijving"
+                    rows="5"></textarea>
+
+                <input
+                    type="date"
+                    id="datum">
+
+                <button
+                    onclick="toevoegenRemediering()">
+
+                    Toevoegen
+
+                </button>
+
+            </div>
+
+            <div class="card large">
+
+                <h3>
+                    Open remedieringen
+                </h3>
+
+                <div id="remedieringenLijst">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="../js/remedieringen.js"></script>
+
+</body>
+
+</html>
