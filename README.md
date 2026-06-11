@@ -37,3 +37,7 @@ Voorbeeld remediering:
 "beschrijving": "Maak oefeningen 1 t.e.m. 5",
 "datum": "2025-06-30"
 }
+
+**Klasse diagram**
+<img width="677" height="509" alt="image" src="https://github.com/user-attachments/assets/ebf5f01b-7c60-4c24-9cad-2df66b12da4b" />
+(duidelijker gemaakt door AI) 
